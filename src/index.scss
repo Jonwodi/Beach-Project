@@ -1,2 +1,14 @@
+// VARIABLES
+@import "assets/sass/variables/colors";
+
 // VENDORS
 @import "assets/sass/vendors/normalize";
+
+.main {
+  background-image: url("../src//assets/images/background.png");
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+}

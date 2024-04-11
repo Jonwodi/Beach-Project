@@ -1,0 +1,47 @@
+.filters {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 280px;
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid var(--brand-color);
+    cursor: pointer;
+    color: var(--brand-color);
+    padding: 0px 30px;
+
+    span {
+      font-weight: 700;
+    }
+
+    img {
+      width: 20px;
+    }
+  }
+
+  &__button-selected {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--brand-color);
+    border: none;
+    border-bottom: 1px solid var(--brand-color);
+    cursor: pointer;
+    color: var(--white);
+    padding: 0px 30px;
+
+    span {
+      font-weight: 700;
+    }
+
+    img {
+      width: 20px;
+    }
+  }
+
+  &__button:last-child {
+    border-bottom: none;
+  }
+}

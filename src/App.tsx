@@ -2,9 +2,9 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <main className="main">
+    <>
       <Home />
-    </main>
+    </>
   );
 }
 

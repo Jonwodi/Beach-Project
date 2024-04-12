@@ -29,7 +29,7 @@ export default function Card(props: any) {
   };
 
   return (
-    <div className="card">
+    <article className="card">
       <div className="card__top">
         <div className={`card__img card__img-${hotelImg}`}>
           <a onClick={() => setShowOverview(!showOverview)}>
@@ -66,6 +66,6 @@ export default function Card(props: any) {
           <p>{hotelOverview}</p>
         </div>
       )}
-    </div>
+    </article>
   );
 }

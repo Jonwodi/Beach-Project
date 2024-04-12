@@ -23,16 +23,16 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">56.52% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>13/23</span>
+                <span class='fraction'>23/23</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">56.52% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>13/23</span>
+                <span class='fraction'>23/23</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -90,25 +90,25 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import Card from "../card/Card";
 import "./hotels.scss";
 import { useHotelsContext } from "../../contexts/HotelsContext";
@@ -118,16 +118,16 @@ export default function Hotels() {
   return (
     &lt;section className="hotels"&gt;
       {hotels?.map((hotel) =&gt; (
-<span class="cstat-no" title="statement not covered" >        &lt;Card</span>
-<span class="cstat-no" title="statement not covered" >          key={hotel.id}</span>
-<span class="cstat-no" title="statement not covered" >          hotelImg={hotel.image}</span>
-<span class="cstat-no" title="statement not covered" >          hotelName={hotel.name}</span>
-<span class="cstat-no" title="statement not covered" >          hotelLocation={hotel.location}</span>
-<span class="cstat-no" title="statement not covered" >          hotelRating={hotel.rating}</span>
-<span class="cstat-no" title="statement not covered" >          hotelDetails={hotel.details}</span>
-<span class="cstat-no" title="statement not covered" >          hotelPrice={hotel.price}</span>
-<span class="cstat-no" title="statement not covered" >          hotelOverview={hotel.readMore}</span>
-<span class="cstat-no" title="statement not covered" >        /&gt;</span>
+        &lt;Card
+          key={hotel.id}
+          hotelImg={hotel.image}
+          hotelName={hotel.name}
+          hotelLocation={hotel.location}
+          hotelRating={hotel.rating}
+          hotelDetails={hotel.details}
+          hotelPrice={hotel.price}
+          hotelOverview={hotel.readMore}
+        /&gt;
       ))}
     &lt;/section&gt;
   );
@@ -139,7 +139,7 @@ export default function Hotels() {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-04-11T23:29:05.950Z
+                at 2024-04-12T00:16:20.776Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>
